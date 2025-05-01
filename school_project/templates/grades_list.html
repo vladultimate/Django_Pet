@@ -1,0 +1,11 @@
+<h1>Список оцінок</h1>
+<a href="{% url 'add_grade' %}">Додати оцінку</a>
+<ul>
+    {% for grade in grades %}
+        <li>
+            {{ grade.student.name }} - {{ grade.subject.name }} - {{ grade.grade }}
+            <a href="{% url 'edit_grade' grade.id %}">Редагувати</a> |
+            <a href="{% url 'delete_grade' grade.id %}">Видалити</a>
+        </li>
+    {% endfor %}
+</ul>
