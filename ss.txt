@@ -1,7 +1,0 @@
-student1 = Student.objects.create(
-    name="Олександр Іванов",
-    class_group=class_10a,
-    birthday="2010-05-10",
-    email="alex@example.com",
-    phone_number="123456789"
-)
