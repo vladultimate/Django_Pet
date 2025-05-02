@@ -21,16 +21,17 @@
 Як запустити проєкт
 Клонувати репозиторій:
 
-git clone https://github.com/your-username/school-journal.git
-cd school-journal
+`git clone https://github.com/vladultimate/Django_Pet`
 
 Встановити Django:
-pip install django
+`pip install django`
 
 Застосувати міграції:
 
-python manage.py migrate
-
+`python manage.py migrate`
 
 Запустити локальний сервер:
-python manage.py runserver
+`python manage.py runserver`
+
+Перейти в браузері за адресою:
+`http://127.0.0.1:8000/`
